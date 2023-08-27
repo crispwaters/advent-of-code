@@ -17,7 +17,13 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* aliases */
+    "baseUrl": "src",
+    "paths": {
+      "@utils": ["utils/*"],
+    }
   },
   "include": ["src"]
 }
