@@ -20,9 +20,9 @@
     "noFallthroughCasesInSwitch": true,
 
     /* aliases */
-    "baseUrl": "src",
+    "baseUrl": "./src",
     "paths": {
-      "@utils": ["utils/*"],
+      "@utils": ["./src/_util"],
     }
   },
   "include": ["src"]

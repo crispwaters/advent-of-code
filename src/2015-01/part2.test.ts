@@ -1,6 +1,6 @@
 import {test, expect} from 'vitest'
 import {parse} from './parse'
-import { readInput } from '../util/read-input'
+import { readInput } from '../_util/read-input'
 
 const input = (filename: string) => readInput({filename, directory: __dirname})
 
