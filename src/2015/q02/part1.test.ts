@@ -1,5 +1,5 @@
 import {test} from 'vitest'
-import { calculate } from './calculate'
+import { calculate } from './calculate.wrapping-paper-footage'
 import { readInput } from '../../_util/read-input'
 
 test('2015 - Day 2 - Part 1 - Answer', () => {
