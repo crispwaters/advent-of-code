@@ -35,7 +35,6 @@ test('roboSantaReadDirections - input:^>v<', () => {
 test('roboSantaReadDirections - input:^v^v^v^v^v', () => {
     const input = '^v^v^v^v^v'
     const result = roboSantaReadDirections(input)
-    console.log(result)
     expect(result).toEqual({
         '0,0': { nPresents: 1 },
         '0,1': { nPresents: 1 },
