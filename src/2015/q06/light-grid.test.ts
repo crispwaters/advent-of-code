@@ -20,6 +20,5 @@ test('lightGrid - multiple instructions', () => {
         'turn off 499,499 through 500,500'
     ]
     const result = lightGrid(instructions.join('\n'))
-    console.log(Object.keys(result).filter(key => result[key] === 'off').length)
     expect(Object.values(result).filter(state => state === "on").length).toEqual(1000000 - 1000 - 4)
 })
