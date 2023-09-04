@@ -8,7 +8,7 @@ export class Gate {
     constructor() {}
     setValue() {
         if (!this.isReady) return
-        this.value = this.value % 65536
+        // this.value = this.value % 65536
         this.emit()
     }
     emit() {

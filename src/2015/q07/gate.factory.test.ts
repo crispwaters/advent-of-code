@@ -1,6 +1,5 @@
 import {test, expect} from 'vitest'
 import { GateFactory } from './gate.factory'
-import { shuffleArray } from '../../_util/shuffle'
 
 test('GateFactory - example 1', () => {
     const input = [
